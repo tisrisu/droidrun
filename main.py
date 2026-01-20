@@ -6,7 +6,7 @@ import os
 async def main():
 
     llm = GoogleGenAI(api_key = os.environ.get("GOOGLE_API_KEY"), model="models/gemini-2.5-flash")
-    # Initialize the DroidAgent
+
     droid_agent = DroidAgent(
 "Sync Tuesday's class schedule from WhatsApp to Alarms.Step 1: Open WhatsApp, search for the contact 'teacher', and open the chat.Step 2: Find the message or file named 'tuesday_only_timetable'. Open it and take a screenshot to extract the class times for Tuesday.Step 3: Close WhatsApp and open the Gemini App.Step 4: For each class time found in Step 2, type a command to Gemini: 'Set an alarm for [Time]'.Step 5: Confirm the alarm is set before moving to the next one." ,     
      config=DroidrunConfig(
@@ -20,3 +20,4 @@ async def main():
     
 if __name__ == "__main__":
     asyncio.run(main())
+
