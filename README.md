@@ -21,7 +21,7 @@ ADB (Android Debug Bridge): Installed and added to your system's PATH.
 
 Google GenAI API Key: You can obtain one from Google AI Studio.
 
-🛠️ Installation
+Installation
 Clone this repository:
 
 Bash
