@@ -31,7 +31,7 @@ Install the required Python packages:
 
 Bash
 pip install droidrun llama-index-llms-google-genai
-⚙️ Configuration
+ Configuration
 1. Environment Variables
 You must export your Google API key as an environment variable so the script can access the LLM.
 
